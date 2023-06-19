@@ -1,4 +1,4 @@
-import {sequelize} from '../Context/db.js'
+import {sequelize} from '../Context/DB.js'
 import { DataTypes } from 'sequelize'
 
 export const UserEntity = sequelize.define('Usuario', {
